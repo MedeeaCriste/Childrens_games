@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url("./backwand.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+   padding-top: 140px;
+   color: #759;
+   text-shadow: 2px 2px 2px  white;
+   
+
+}
+@media  (max-width:600px) {
+    
+    h1{
+        font-size: 30px;
+    }
+
+}
+span{
+    background: url("https://cdn2.iconfinder.com/data/icons/christmas-2265/64/Star-adornment-christmas-xmasg8vo-decoration-christmas-256.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: animate 6s linear;
+}
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+        filter: hue-rotate(730deg);
+
+    }  
+}

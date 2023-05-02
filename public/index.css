@@ -1,0 +1,707 @@
+body{
+    margin: 0;
+    background-color: rgba(245, 245, 245, 1);
+
+}
+#navbar{
+    background-color: #0D5A0C;
+  max-width: 100%;
+}
+#navbar img{
+    position: absolute;
+    width: 300px;
+    object-fit: cover;
+}
+#navbar h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: noto;
+    padding-top: 60px;
+    height: 50px;
+}
+   .bg-image{
+    height: 200px;
+    background: url("./imagini_principala/aboutus.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+    background-size: cover;
+    margin-top: -30px;
+    background-repeat: no-repeat;
+   }
+    #aboutus img{
+        width:90px;
+     }
+   
+    #aboutus p  {
+        color: grey;
+        font-size: 18px;
+      }
+     #posters{
+      
+        gap: 10px;
+        display: flex;
+       justify-content: center;
+        align-items: center;
+     }
+    .container {
+        padding: 10px;
+        margin-top: 5px;
+    }
+    #navbar img{
+        width: 150px;
+    }
+    
+    #gametext{
+        color: green;
+        padding: 20px;
+        text-align: center;
+}
+    #bigcontent{
+        background-image: url("./bac/baccc.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #content{
+        
+        
+        margin-top: -40px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+   
+    #game1 img{
+        width: 93px;
+        height: 84px;
+        
+        border-radius: 20px;
+        object-fit: cover;
+        margin-left: 20px;
+        
+    }
+    #game2 img{
+        width: 93px;
+        height: 84px;
+        border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+        }
+    #game3 img{
+        width: 93px;
+        height: 84px;
+         border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+            }
+    #game4 img{
+        width: 93px;
+        height: 84px;
+        border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+     }
+     #game1 {
+        display: flex;
+        color: white;
+        background-color: rgb(-10, 139, -5, .5);
+        width: 300px;
+        height: 150px;
+        text-align: center;
+        justify-content: center;
+        gap: 34px;
+        margin-top: 90px;
+       
+        align-items: center;
+       
+        }
+    
+        #game1 p{
+            text-align: left;
+            font-size: 15px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-right: 20px;
+    
+        }
+        #game2  {
+            display: flex;
+            color: white;
+            background-color: rgb(-10, 139, -5, .5);
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            justify-content: center;
+            gap: 34px;
+            align-items: center;
+    
+            }
+        
+         #game2 p{
+                text-align: left;
+                font-size: 15px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                padding-right: 20px;
+    
+        
+            }
+         #game3  {
+            display: flex;
+            color: white;
+            background-color: rgb(-10, 139, -5, .5);
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            justify-content: center;
+            gap: 34px;
+            align-items: center;
+    
+            }
+        
+            
+            #game3 p{
+                    text-align: left;
+                    font-size: 15px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    padding-right: 20px;
+            
+                }
+                #game4  {
+                    display: flex;
+                    color: white;
+                    background-color: rgb(-10, 139, -5, .5);
+                    width: 300px;
+                    height: 150px;;
+                    text-align: center;
+                    justify-content: center;
+                    gap: 34px;
+                    align-items: center;
+    
+                    }
+                
+                
+                    #game4 p{
+                        text-align: left;
+                        font-size: 15px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            padding-right: 20px;
+    
+                
+                    }
+    #footer{
+        height: fit-content;
+    }
+    #footer h1{
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 20px;
+        font-size: 15px;
+        }
+    #footer h2{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        }
+    #mail{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 20px;
+        
+    }
+    #mail svg{
+        fill: white;
+        width: 15px;
+        
+
+        }
+    #mail a{
+        font-size: 10px;
+        }
+
+        #phone{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 20px;;
+            
+        }
+        #phone svg{
+            fill: white;
+            width: 15px;
+            
+    
+            }
+        #phone p{
+            font-size: 10px;
+            }
+
+           
+
+                #footer img{
+                    display: none;
+                }
+                #footer{
+                    background-color: #0D5A0C;
+                    color: white;
+                   
+                }
+
+                
+
+
+@media (min-width: 725px){
+    #aboutus img{
+        width:200px;
+     }
+    
+     #posters{
+     
+      
+        gap: 40px;
+     }
+    #navbar{
+        height: fit-content;
+       }
+
+       #gametext{
+        padding: 10px;
+        text-align: center;
+
+       }
+    #content{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-size: cover;
+        height: fit-content;
+        
+        justify-items: center;
+        align-self: center;
+        width: 100%;
+        margin-top: -70px;
+    }
+    #navbar img{
+        width: 200px;
+    }
+    #navbar h1{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-family: noto;
+        padding-top: 25px;
+        height: 61px;
+    }
+        #game1{
+      width: 335px;
+      height: 182px}
+
+       #game2{
+        width: 335px;
+        height: 182px;
+        margin-top: 90px;
+       }
+       #game3{
+        width: 335px;
+        height: 182px
+   
+       }
+       #game4{
+        width: 335px;
+        height: 182px
+       }
+       #game1 img{
+        width: 120px;
+        height: 106px;
+   
+       }
+       #game2 img{
+        width: 120px;
+        height: 106px;
+           
+       }
+       #game3 img{
+        width: 120px;
+        height: 106px;
+           
+       }
+       #game4 img{
+        width: 120px;
+        height: 106px;
+          
+       }
+   
+       #game1 p{
+        font-size: 13px;
+        font-weight: bold;
+       }
+       #game2 p{
+        font-size: 13px;
+        font-weight: bold;
+       }
+       #game3 p{
+        font-size: 13px;
+        font-weight: bold;
+       }
+       #game4 p{
+        font-size: 13px;
+        font-weight: bold;
+       }
+       #footer h1{
+        font-size: 30px;
+
+       }
+       #footer h2{
+        font-size: 25px;
+
+       }
+       
+
+}
+@media (min-width: 1024px){
+    #gametext{
+        padding: 11px;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    #game1{
+        width: 415px;
+        height: 182px;}
+  
+         #game2{
+           width: 415px;
+            height: 182px
+         }
+         #game3{
+            width: 415px;
+            height: 182px
+         }
+         #game4{
+            width: 415px;
+            height: 182px
+         }
+         #game1 img{
+            width: 150px;
+            height: 115px;
+       
+           }
+           #game2 img{
+            width: 150px;
+            height: 115px;;
+               
+           }
+           #game3 img{
+            width: 150px;
+            height: 115px;
+               
+           }
+           #game4 img{
+            width: 150px;
+            height: 115px;
+              
+           }
+           #game1 p{
+            font-size: 12px;
+            font-weight: bold;
+
+           }
+           #game2 p{
+            font-size: 12px;
+            font-weight: bold;
+           }
+           #game3 p{
+            font-size: 12px;
+            font-weight: bold;
+
+            
+           }
+          
+           #game4 p{
+            font-size: 12px;
+            font-weight: bold;
+           }
+
+}
+@media (min-width: 1440px){
+    body{
+        margin: 0;
+        background-color: rgba(245, 245, 245, 1);
+    
+    }
+    #navbar{
+       
+        background-color: #0D5A0C;
+      max-width: 100%;
+      height: fit-content;
+    }
+    #navbar img{
+        width: 300px;
+        object-fit: cover;
+    }
+    #navbar h1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        font-family: noto;
+        padding-top: 66px;
+        height: 65px;
+    }
+    
+   
+      
+      .bg-image {
+        height: 500px;
+      
+        
+       
+      }
+      
+      .container {
+        padding: 100px;
+        margin-top: -110px;
+      
+      }
+      
+      h1 {
+        font-size: 50px;
+        color: #0D5A0C;
+      }
+      #aboutus p  {
+        color: grey;
+        font-size: 18px;
+      }
+      
+     #aboutus img{
+        width: 300px;
+     }
+    
+     #posters{
+       
+        gap: 100px;
+     }
+    #content{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-size: cover;
+        height: fit-content;
+        
+        justify-items: center;
+        align-self: center;
+        width: 100%;
+        margin-top: -70px;
+    
+    
+        
+    }
+    #gametext{
+        padding: 40px;
+        font-size: 50px;
+        
+    }
+    
+    #game1 img{
+        width: 250px;
+        height: 200px;
+        
+        border-radius: 20px;
+        object-fit: cover;
+        margin-left: 20px;
+        
+    }
+    #game2 img{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+        }
+    #game3 img{
+        width: 250px;
+        height: 200px;
+         border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+            }
+    #game4 img{
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 20px;
+        object-fit: cover;
+    
+     }
+     #game1 {
+        display: flex;
+        color: white;
+        background-color: rgb(-10, 139, -5, .5);
+        width: 600;
+        height: 320px;
+        text-align: center;
+        justify-content: center;
+        gap: 34px;
+        margin: 100px 0px;
+        align-items: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+        #game1 p{
+            text-align: left;
+            font-size: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-right: 20px;
+    
+        }
+        #game2  {
+            display: flex;
+            color: white;
+            background-color: rgb(-10, 139, -5, .5);
+            width: 600;
+            height: 320px;
+            text-align: center;
+            justify-content: center;
+            gap: 34px;
+            margin: 100px 0px;
+            align-items: center;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        
+         #game2 p{
+                text-align: left;
+                font-size: 25px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                padding-right: 20px;
+    
+        
+            }
+         #game3 {
+            display: flex;
+            color: white;
+            background-color: rgb(-10, 139, -5, .5);
+            width: 600;
+            height: 320px;
+            text-align: center;
+            justify-content: center;
+            gap: 34px;
+            margin: 100px 0px;
+            align-items: center;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        
+            
+            #game3 p{
+                    text-align: left;
+                    font-size: 25px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    padding-right: 20px;
+            
+                }
+                #game4 {
+                    display: flex;
+                    color: white;
+                    background-color: rgb(-10, 139, -5, .5);
+                    width: 600;
+                    height: 320px;
+                    text-align: center;
+                    justify-content: center;
+                    gap: 34px;
+                    margin: 100px 0px;
+                    align-items: center;
+                    padding-right: 50px;
+                    padding-left: 50px;
+                }
+                
+                
+                    #game4 p{
+                        text-align: left;
+                        font-size: 25px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            padding-right: 20px;
+    
+                
+                    }
+    
+    
+    
+                   
+    
+                    #footer h1{
+                        text-align: center;
+                        padding-top: 30px;
+                        font-size: 40px;
+                        color: white
+                        }
+    
+                    #footer h2{
+                        margin-left: 30px;
+                        font-size: 35px;
+                        
+                    }
+    
+                    #mail {
+                        
+                        display: flex;
+                        flex-direction: row;
+                        gap:10px;
+                        align-items: center;
+                        margin-top: -15px;
+                        padding: 30px;
+                    }
+    
+                    #mail svg{
+                        fill: white;
+                        width: 25px;
+    
+    
+                    }
+                    #mail p{
+                        font-size: 20px;
+                    }
+                    #phone {
+                        display: flex;
+                        flex-direction: row;
+                        gap:10px;
+                        align-items: center;
+                        margin-top: -60px;
+                        padding: 30px;
+                    }
+    
+                    #phone svg{
+                        fill: white;
+                        width: 25px;
+    
+    
+                    }
+                    #phone p{
+                        font-size: 24px;
+                    }
+    
+                   
+                    #footer img{
+                        
+                        width: 200px;
+                        float: right;
+                        margin-top: -170px;
+                         margin-right: 50px;
+                    }
+                    #mail a {
+                        font-size: 24px;
+                    }
+
+}
+

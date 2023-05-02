@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    background-image: url("./bacimg.webp");
+    background-size: cover;
+  }
+  
+  .btn {
+    background-color: green;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    font-size: 28px;
+    text-align: center;
+    width: 400px;
+    
+
+  }
+  
+  .btn span {
+    position: relative;
+    z-index: 1;
+    color: white;
+
+    
+
+  }
+  a.btn{
+    height: 65px;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(60, 255, 0, 0.836);
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+  }
+  
+  .btn:hover::before {
+    width: 850px;
+    height: 500px;
+  }  
+  @media screen and (max-width: 728px){
+body{
+    flex-direction: column;
+}
+
+a.btn{
+    height: 50px;
+    width: 112px;
+  }
+ 
+  .btn span {
+    font-size: 15px;
+    padding: 2px
+  }}
+
+  @media (min-width: 729px) and (max-width: 1462px){
+   
+    a.btn{
+        height: 50px;
+        width: 190px;
+      }
+     
+      .btn span {
+        font-size: 16px;
+        padding: 2px
+      }}
+    
+
+
